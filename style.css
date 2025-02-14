@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(Assets/cool-background.png);
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    background: blueviolet;
+    padding: 12px 26px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 550;
+    cursor: pointer;
+    animation: alternate;
+}
+
+
+
+a:hover{
+    background: rgb(59, 243, 151);
+}
+
+a I{
+    margin-right: 10px;
+}
